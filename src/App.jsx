@@ -80,7 +80,7 @@ function App() {
                   </p>
                 </div>
               </div>
-              <div className="border-t flex justify-center text-xs mt-2">
+              <div className="border-t-2 flex justify-center text-xs mt-2">
                 <div className="flex gap-2 mt-2">
                   <button className="border rounded-md p-1 bg-black text-white font-semibold transform hover:scale-102 transition duration-300 hover:translate-y-1">
                     View Projects
