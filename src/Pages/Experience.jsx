@@ -9,7 +9,7 @@ export default function Experience() {
         </div>
         <div className="mb-2">
           Full-Stack Web Developer |
-          <span className="italic ml-1 text-sm">Part-Time</span>
+          <span className="italic ml-1 text-sm">Full-Time</span>
         </div>
         <ul className="list-disc ml-5 space-y-1">
           <li>

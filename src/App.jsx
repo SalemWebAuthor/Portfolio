@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <div className="min-h-screen bg-gray-100 p-5">
-        <div className="gap-2 flex">
-          <div className="bg-white border border-gray-200 z-10 rounded-2xl w-1/4 h-[95vh] p-5">
+        <div className="flex flex-col lg:flex-row gap-2 w-full">
+          <div className="bg-white border border-gray-200 z-10 space-y-2 rounded-2xl lg:w-1/4 lg:h-[95vh] h-full p-5">
             <div className="flex flex-col items-center">
               <img src="" alt="" className="bg-gray-200 h-40 w-40 rounded-xl" />
               <h1 className="mt-2 font-extrabold">LESTER GODWIN SALEM</h1>
@@ -21,7 +21,7 @@ function App() {
                 Calatrava, 6126
               </p>
             </div>
-            <div className="mt-4 gap-x-2">
+            <div className="mt-4 gap-x-2 sm:p-8 md:p-6 lg:p-2">
               <div className="mt-10">
                 <h1 className="font-bold flex items-center gap-2">
                   <HiUser className="w-4 h-4" />
@@ -92,8 +92,11 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="bg-white border-[0.5px] border-gray-200 z-10 rounded-2xl w-3/4">
-            <div>
+          <div className="bg-white border-[0.5px] border-gray-200 z-10 rounded-2xl lg:w-3/4 lg:h-[95vh] w-full mt-5 md:mt-4 lg:mt-0">
+            <div
+              className="h-full
+            "
+            >
               <TabNavigation />
             </div>
           </div>
